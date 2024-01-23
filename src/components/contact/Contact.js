@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="form-container">
                     <form>
                         <h1><span>Contact</span> Us</h1>
-                        <div>
+                        <div >
                             <label>Name</label>
                             <input type="text" placeholder='Enter your name'/>
                         </div>
@@ -19,7 +19,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <label>Message</label>
-                            <textarea rows='10' placeholder='Enter your name'/>
+                            <textarea rows='4' placeholder='Enter your message'/>
                         </div>
                         <button>Submit</button>
                     </form>

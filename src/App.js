@@ -1,10 +1,9 @@
 import React from 'react'
-import Data from './components/data/Data';
-import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
+import Data from './components/data/Data';
 import Cloud from './components/cloud/Cloud'
 import Footer from './components/footer/Footer';
-// import SignIn from './components/signIn/SignIn';
 function App() {
   return (
     <>
@@ -13,7 +12,6 @@ function App() {
       <Data />
       <Cloud />
       <Footer />
-      {/* <SignIn /> */}
     </>
   );
 }
